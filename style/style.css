@@ -173,6 +173,34 @@ margin-bottom: 20px;
     align-items: center;
     
 }
+.footer-content{
+    text-align: center;
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.copy-right{
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.footer-content p{
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.footer-icon .icon{
+    background: #23213c;
+    padding: 7px;
+    border-radius: 50%;
+    
+}
+.footer-icon{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
