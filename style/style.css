@@ -75,6 +75,67 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+/* popular section start */
+
+.popular-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     margin: 50px 0px;
+}
+.popular-section .section-title{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+.popular-card{
+    background: #FFFFFF;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+max-width: 330px;
+margin-bottom: 20px;
+}
+.card-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
+    margin-bottom: 5px;
+}
+.card-price{
+    font-weight: 400;
+    color:#000000DE;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.card-icon i{
+    color: #FB8200;
+}
+.card-icon span{
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #5E6366;
+    margin-left: 10px;
+}
+.popular-card p{
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #787885;
+    max-width: 190px;
+}
+.see-more{
+    font-weight: 700;
+    color: #E02C6DDE;
+    text-align: right;
+}
+.popular-section{
+    margin-bottom: 100px;
+}
+
+
+
 
 
 
@@ -93,8 +154,16 @@ nav ul li a{
     .banner{
         flex-direction: column-reverse;
     }
+    
     .banner-text-wapper{
         text-align: center;
+    }
+    .popular-card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        align-items: center;
+        padding: 0px 50px;
+       
     }
     .section-title{
         font-size: 2.25rem;
